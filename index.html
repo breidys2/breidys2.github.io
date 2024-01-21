@@ -1,228 +1,589 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<title>Benjamin Reidys</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="icon" type="image/jpg" href="ben_new.jpg">
-<style>
-  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-  a {text-decoration: none}
-  .latex sub {
-    vertical-align: -0.05ex;
-    margin-left: -0.1667em;
-    margin-right: -0.125em;
-  }
-  .latex, .latex sub {
-    font-size: 1em;
-    font-family: "Times New Roman", serif;
-  }
-  .latex sup {
-    font-size: 0.85em;
-    vertical-align: -0.35em;
-    margin-left: -0.36em;
-    margin-right: -0.15em;
-  }
-</style>
-<head>
-  <script src="https://kit.fontawesome.com/01010ab6b7.js" crossorigin="anonymous"></script>
-</head>
-<body class="w3-light-grey">
+	<head>
+		<title>Benjamin Reidys</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:975px;">
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="Ben Picture"><img style="max-height:300px" src="images/ben_new.jpg" alt="Benjamin Picture" /></span>
+					<h1 id="logo"><a href="#">Benjamin Reidys</a></h1>
+                    <p>PhD. Candidate in CS @ UIUC <br>
+                    Urbana, Illinois, USA <br>
+                    breidys2 [at] illinois [dot] edu
+                    </p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About Me</a></li>
+						<li><a href="#two">My Research</a></li>
+						<li><a href="#three">Selected Publications</a></li>
+						<li><a href="#four">Education</a></li>
+						<li><a href="#five">Service</a></li>
+						<li><a href="#six">Miscellaneous</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://scholar.google.com/citations?user=eONyu-sAAAAJ&hl=en" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+						<li><a href="https://www.linkedin.com/in/benjamin-reidys-89a802170/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/breidys2" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="breidys2@illinois.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="files/cv_redacted.pdf" class="icon fa-file-pdf"><span class="label">CV</span></a></li>
+					</ul>
+				</footer>
+			</section>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <div class="">
-      <div class="w3-white w3-text-black w3-card-4">
-        <div class="w3-display-container w3-light-grey" style="">
-          <div class="w3-row w3-center" style="">
-              <div class="w3-col m6">
-                <img src="ben_new.jpg" class="" style="max-height: 300px;" alt="Ben's picture">
-              </div>
-              <div class="w3-col m6" >
-                <div style="">
-                    <div>
-                    <h2 class= "w3-text-black w3-padding-16"> <b>Benjamin Reidys</b></h2>
-                    <p><span class="fas fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></span>Ph.D. Student</p>
-                    <p><span class="fas fa-university fa-fw w3-margin-right w3-large w3-text-indigo"></span><a href=https://cs.illinois.edu>CS</a> @ <a href=https://illinois.edu>UIUC</a></p>
-                    <p><span class="fas fa-map-marker-alt fa-fw w3-margin-right w3-large w3-text-indigo"></span>Urbana, IL, USA</p>
-                    <p><span class="fas fa-at fa-fw w3-margin-right w3-large w3-text-indigo"></span><a
-                        href=mailto:breidys2@illinois.edu>breidys2 [at] illinois [dot] edu</a></p>
-                    <p>
-                      <a href="https://scholar.google.com/citations?user=eONyu-sAAAAJ&hl=en"><span class="fas fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-indigo"></span></a>
-                      <a href=https://www.linkedin.com/in/benjamin-reidys-89a802170/><span class="fab fa-linkedin-in fa-fw w3-margin-right w3-large w3-text-indigo"></span></a>
-                      <a href=https://github.com/breidys2><span class="fab fa-github fa-fw w3-margin-right w3-large w3-text-indigo"></span></a>
-                      <a href=cv_redacted.pdf><span class="far fa-file-pdf fa-fw w3-margin-right w3-large w3-text-indigo"></span></a>
-                      </p>
-                    </div>
-                </div>
-              </div>
-          </div>
-        </div>
-        <div class="w3-container">
-        </div>
-      </div>
-      <!--break-->
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-black"><span class="fa-fw w3-margin-right w3-xxlarge w3-text-black"></span>About Me</h2>
-        <h5 class="">
-            My name is Benjamin Reidys. I am a 4th year Ph.D. student at the <u><a class="w3-text-black"
-                                                                                   href=https://cs.illinois.edu>Computer Science Department</a></u> of the
-          <u><a class="w3-text-black" href=https://illinois.edu>University of Illinois Urbana-Champaign</a></u>, working with 
-          <u><a class="w3-text-black" href=https://jianh.web.engr.illinois.edu/>Professor Jian Huang</a></u> as a member of the 
-              <u><a class="w3-text-black" href=https://platformxlab.github.io/>Systems Platform Research Group</a></u>.
-                  Before starting my Ph.D., I studied <u><a class="w3-text-black" href="https://cs.vt.edu/">Computer Science</a></u> and
-                  <u><a class="w3-text-black" href=https://math.vt.edu/>Mathematics</a></u> at <u><a class="w3-text-black" href=https://vt.edu>Virginia Tech</a></u>.
-        </h5>
-        <h5 class="">
-          Primarily, my research uses techniques from Operating Systems, Networking, and 
-          some Machine Learning to improve the performance and usability of Memory and Storage Systems.
-          Currently, I am focused on improving the data center scale storage systems through network/storage codesign.
-          You can find my full CV <u><b><a class="w3-text-black" href=cv_redacted.pdf>here</a></b></u>.
-        </h5>
-        <br>
-      </div>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-      
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-black"><span class="fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></span>Selected Publications</h2>
-        <div class="w3-container">
-            <h5 class=""><a href=https://dl.acm.org/doi/10.1145/3600006.3613170><b>RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design</b></a>.
-                <u><b>Benjamin Reidys</b></u>, Yuqi Xue, Daixuan Li, Bharat Sukhwani, Wen-mei Hwu, Deming Chen, Sameh Asaad, Jian Huang.
-                In <a href=https://sosp2023.mpi-sws.org/program.html><i>Proceedings of the 29th ACM Symposium on Operating Systems Principles
-                        (SOSP'23)</i></a>
-                <br> <b>Full Talk Slides:</b><a class="w3-text-indigo"
-                  href="rackblox_sosp_slides.pdf"><b>
-                  [PDF].</b></a>
-                <b>Poster:</b><a class="w3-text-indigo" href="rb_sosp_poster.pdf"><b> [PDF].</b></a> 
-                <b>Code:</b><a class="w3-text-indigo" href="https://github.com/breidys2/rackblox"><b> [Github]</b></a> 
-                <br><b>- Artifact Evaluated!</b>
-            <img src="acm_available.jpg" style="max-height: 40px;" alt="Badge Available">
-            <img src="acm_functional.jpg" style="max-height: 40px;" alt="Badge Functional">
-                <br> - Travel supported by the <b>SOSP 2023 Travel Scholarship</b>, Thanks SOSP!
-                <br> - Selected for presentation at <b><a class="w3-text-black" href="https://hotinfra23.github.io/"> HotInfra'23!</a></b>
-            </h5>
-        </div>
-        <div class="w3-container">
-            <h5 class=""><a href="https://www.usenix.org/conference/osdi22/presentation/reidys"
-                            ><b>BlockFlex: Enabling Storage Harvesting
-                    with Software-Defined Flash in Modern Cloud Platforms</b></a>. <u><b>Benjamin Reidys*</b></u>, Jinghan Sun*, Anirudh Badam, Shadi Noghabi, Jian Huang.
-                In <a href=https://www.usenix.org/conference/osdi22><i>Proceedings of the 16th Usenix
-                        Symposium on Operating Systems Design and Implementation (OSDI'22)</i></a>
-                <br>*co-primary authors
-                <br> <b>Full Talk Slides:</b><a class="w3-text-indigo"
-                  href="https://drive.google.com/file/d/1KAFlDr00x6zQ-nb4xEYi1_6oEZAuy0wV/view?usp=sharing"><b>
-                  [PDF].</b></a>
-                <b>Poster:</b><a class="w3-text-indigo" href="osdi_poster.pdf"><b> [PDF].</b></a> 
-                <b>Code:</b><a class="w3-text-indigo" href="https://github.com/platformxlab/blockflex"><b> [Github]</b></a> 
-                <br><b>- Artifact Evaluated!</b>
-            <img src="usenixbadges-available.png" style="max-height: 40px;" alt="Badge Available">
-            <img src="usenixbadges-functional.png" style="max-height: 40px;" alt="Badge Functional">
-            <img src="usenixbadges-reproduced.png" style="max-height: 40px;" alt="Badge Reproduced">  
-            <br> - Travel supported by the <b>Usenix Student Grant Program</b>, Thanks Usenix!
-            </h5>
-        </div>
-        <!--
-        <div class="w3-container">
-            <h5 class=""><a href="."
-            > <b>Understanding and Detecting Deep Memory Persistency Bugs in NVM Programs with
-            DeepMC</b></a>. <u><b>Benjamin Reidys*</b></u>, Jian Huang.
-                In <a class="w3-text-indigo"
-                    href="https://ppopp22.sigplan.org/">Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP'22)</a>
-                <br> <b>Slides:</b><a class="w3-text-indigo" href="https://docs.google.com/presentation/d/1Td_p52K7StvrUlOh0CYPq9MVlpQch2WO/edit?usp=sharing&ouid=106903160865839504790&rtpof=true&sd=true"><b> Long talk</b></a>, <a class="w3-text-indigo" href="https://docs.google.com/presentation/d/1pVS46lmeLmlxpNoqEH3OQSv5CwnBw7jh/edit?usp=sharing&ouid=106903160865839504790&rtpof=true&sd=true"><b>Short talk</b></a>.
-                <b>Videos:</b><a class="w3-text-indigo" href="https://drive.google.com/file/d/156rkFNfKzh8wyYdNt1ZDLjpLEQjX-vuY/view?usp=sharing"><b> Long talk</b></a>, <a class="w3-text-indigo" href="https://drive.google.com/file/d/1rBpCPorNc4WSoo1d-9vBy3pjv3grDs5d/view?usp=sharing"><b>Short talk</b></a>.
-            </h5>
-        </div>
-        -->
-        <div class="w3-container">
-            <h5 class=""><a href="https://dl.acm.org/doi/10.1145/3503222.3507773"
-                            ><b>RSSD: Defend against Ransomware with Hardware-Isolated
-                    Network-Storage Codesign and Post-Attack Analysis</b></a>. <u><b>Benjamin Reidys</b></u>, Peng Liu, Jian Huang.
-                In <a 
-                            href=https://asplos-conference.org/2022/><i>Proceedings of the 27th ACM
-                                International Conference on Architectural Support for Programming
-                                Languages and Operating Systems (ASPLOS'22)</i></a>
-                <br> <b>Slides:</b><a class="w3-text-indigo"
-                    href="https://drive.google.com/file/d/1ytWsaJSCPfRFnxqUuMcUmwIDwMGFhwz2/view?usp=sharing"><b>
-                        [PDF]</b></a>, 
-                <b>Videos:</b>
-                <a class="w3-text-indigo" href="https://drive.google.com/file/d/15PMOtggBIEb0dBcgaC8fsca9K8bWfHDj/view?usp=sharing"><b> Long talk</b></a>,
-                <a class="w3-text-indigo" href="https://docs.google.com/presentation/d/1AOJxCvBpDgocc1_O3l_vcbEnyj_fIRqe/edit?usp=sharing&ouid=106903160865839504790&rtpof=true&sd=true"><b>Short talk</b></a>,
-                <a class="w3-text-indigo" href="https://drive.google.com/file/d/1wkKNvMtYXKLzbHOtiQFDpEH6fEcDBC_0/view?usp=sharing"><b>Lightning talk</b></a>. 
-                <br> - Travel supported by the <b>ASPLOS Travel Grant</b>, Thanks ASPLOS!  <br> - Selected for presentation at <b><a class="w3-text-black" href="http://nvmw.ucsd.edu/program/"> NVMW'22!</a></b>
-            </h5>
-        </div>
-        <div class="w3-container">
-            <h5 class=""><a href="https://dl.acm.org/doi/10.1145/3466752.3480060"
-                            ><b>Distributed Data Persistency</b></a>. Apostolos Kokolis,
-                Antonis Psistakis, <u><b>Benjamin Reidys</b></u>, Jian Huang, Josep Torrellas. In <a
-                            href=https://www.microarch.org/micro54/><i>Proceedings of the 54th
-                                IEEE/ACM International Symposium on Microarchitecture (MICRO '21)</i></a>
-                <br> - Selected for <b><a class="w3-text-black"
-                        href="https://ieeexplore.ieee.org/document/9741337?source=authoralert"> IEEE Micro Top Picks '22!</a></b>
-            </h5>
-        </div>
-        <div class="w3-container">
-            <h5 class=""><a href=https://dl.acm.org/doi/10.1145/3456727.3463775
-                ><b>UniHeap: Managing Persistent Objects Across Managed Runtimes
-                    for Non-Volatile Memory</b></a>. Daixuan Li, <u><b>Benjamin Reidys</b></u>, Jinghan Sun,
-            Thomas Shull, Josep Torrellas, Jian Huang. In <a
-                href=https://www.systor.org/2021/><i>Proceedings of the 14th ACM International
-                    System and Storage Conference (SYSTOR '21)</i></a>
-            <br> - Selected for presentation at <b><a class="w3-text-black" href="http://nvmw.ucsd.edu/program/"> NVMW'22!</a</b>
+				<!-- Main -->
+					<div id="main">
 
-            </h5>
-        </div>
-      </div>
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-black"><span class="fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></span>Education</h2>
-        <div class="w3-container">
-            <h6 class=""><b>University of Illinois at Urbana-Champaign, Urbana, IL, USA | August 2020 - Present</b></h6>
-          <h6 class="">Ph.D. in Computer Science | Advised by Prof. <a href=https://jianh.web.engr.illinois.edu>Jian Huang</a></h6>
-          <hr>
-          <h6 class=""><b>Virginia Tech</b>, Blacksburg, VA, USA | August 2016 - May 2020</h6>
-          <h6 class="">B.Sc. in Computer Science and Math</h6>
-        </div>
-      </div>
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-black"><span class="fa-fw w3-margin-right w3-xxlarge
-                w3-text-indigo"></span>Service</h2>
-        <div class="w3-container">
-        <h4 class="">I have served in the artifact evaluation committee for the following conferences:</h4>
-        <h5 class="">
-        - FAST (2024)
-        <br>- OSDI (2023)
-        <br>- ATC (2023)
-        <br>- ASPLOS (2023)
-        <br>- EuroSys (2023)
-        <br>- MICRO (2023)
-        </h5>
-        </div>
-      </div>
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major"Benjamin Reidys>
+										<h2>Benjamin Reidys</h2>
+										<p>About Me</p>
+									</header>
+									<p>
+                                    My name is Benjamin Reidys. I am a 4th year Ph.D. student at the <u><a class="w3-text-black"
+                                    href=https://cs.illinois.edu>Computer Science Department</a></u> of the
+                                    <u><a class="w3-text-black" href=https://illinois.edu>University of Illinois Urbana-Champaign</a></u>, working with 
+                                    <u><a class="w3-text-black" href=https://jianh.web.engr.illinois.edu/>Professor Jian Huang</a></u> as a member of the 
+                                    <u><a class="w3-text-black" href=https://platformxlab.github.io/>Systems Platform Research Group</a></u>.
+                                    Before starting my Ph.D., I studied <u><a class="w3-text-black" href="https://cs.vt.edu/">Computer Science</a></u> and
+                                    <u><a class="w3-text-black" href=https://math.vt.edu/>Mathematics</a></u> at <u><a class="w3-text-black" href=https://vt.edu>Virginia Tech</a></u>.
+                                    </p>
+                                    <p>
+                                      Primarily, my research uses techniques from Operating Systems, Networking, and 
+                                      some Machine Learning to improve the performance and usability of Memory and Storage Systems.
+                                      Currently, I am focused on improving software-defined data centers through network/storage co-design.
+                                      You can find my full CV <u><b><a class="w3-text-black" href="files/cv_redacted.pdf">here</a></b></u>.
 
-    <!-- End Right Column -->
-    </div>
+                                    </p>
 
-  <!-- End Grid -->
-  </div>
-  
-<!-- End Page Container -->
-</div>
+								</div>
+							</section>
 
-<footer class="w3-container w3-indigo w3-center w3-margin-top">
-  <br>
-  &nbsp;&nbsp;&nbsp;
-  <a href=mailto:breidys2@illinois.edu><span class="fas fa-at fa-fw w3-margin-right w3-large w3-text-white"></span></a>
-  <a href="https://scholar.google.com/citations?user=eONyu-sAAAAJ&hl=en"><span class="fas fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-white"></span></a>
-  <a href=https://www.linkedin.com/in/benjamin-reidys-89a802170/><span class="fab fa-linkedin-in fa-fw w3-margin-right w3-large w3-text-white"></span></a>
-  <a href=https://github.com/breidys2><span class="fab fa-github fa-fw w3-margin-right w3-large w3-text-white"></span></a>
-  <a href=cv_redacted.pdf><span class="far fa-file-pdf fa-fw w3-margin-right w3-large w3-text-white"></span></a>
-  <p>&#169 2024 Benjamin Reidys</p>
-</footer>
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>My Research</h3>
+									<p>Here are a few highlights from my research projects:</p>
+                                    <p> Under construction, please return soon :)</p>
+                                    <!--
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Possibly broke spacetime</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Terraformed a small moon</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Snapped dark matter in the wild</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+									</div>
+                                    -->
+								</div>
+							</section>
 
-</body>
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Selected Publications</h3>
+                                    <p class=""><b><a href=https://dl.acm.org/doi/10.1145/3600006.3613170>RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design</a></b>.
+                                            <u><b>Benjamin Reidys</b></u>, Yuqi Xue, Daixuan Li, Bharat Sukhwani, Wen-mei Hwu, Deming Chen, Sameh Asaad, Jian Huang.
+                                            In <a href=https://sosp2023.mpi-sws.org/program.html><i>Proceedings of the 29th ACM Symposium on Operating Systems Principles
+                                                    (SOSP'23)</i></a>
+                                            <br> <b>Full Talk Slides:</b><a class="w3-text-indigo"
+                                              href="rackblox_sosp_slides.pdf"><b> [PDF].</b></a>
+                                            <b>Poster:</b><a class="w3-text-indigo" href="rb_sosp_poster.pdf"><b> [PDF].</b></a> 
+                                            <b>Code:</b><a class="w3-text-indigo" href="https://github.com/breidys2/rackblox"><b> [Github]</b></a> 
+                                            <br><b>- Artifact Evaluated!</b>
+                                        <img src="images/acm_available.jpg" style="max-height: 40px;" alt="Badge Available">
+                                        <img src="images/acm_functional.jpg" style="max-height: 40px;" alt="Badge Functional">
+                                            <br> - Travel supported by the <b>SOSP 2023 Travel Scholarship</b>, Thanks SOSP!
+                                            <br> - Selected for presentation at <b><a class="w3-text-black" href="https://hotinfra23.github.io/"> HotInfra'23!</a></b>
+                                        </p>
+                                        <p class=""><b><a href="https://www.usenix.org/conference/osdi22/presentation/reidys"
+                                                        >BlockFlex: Enabling Storage Harvesting
+                                                with Software-Defined Flash in Modern Cloud Platforms</a></b>. <u><b>Benjamin Reidys*</b></u>, Jinghan Sun*, Anirudh Badam, Shadi Noghabi, Jian Huang.
+                                            In <a href=https://www.usenix.org/conference/osdi22><i>Proceedings of the 16th Usenix
+                                                    Symposium on Operating Systems Design and Implementation (OSDI'22)</i></a>
+                                            <br>*co-primary authors
+                                            <br> <b>Full Talk Slides:</b><a class="w3-text-indigo"
+                                              href="https://drive.google.com/file/d/1KAFlDr00x6zQ-nb4xEYi1_6oEZAuy0wV/view?usp=sharing"><b>
+                                              [PDF].</b></a>
+                                            <b>Poster:</b><a class="w3-text-indigo" href="osdi_poster.pdf"><b> [PDF].</b></a> 
+                                            <b>Code:</b><a class="w3-text-indigo" href="https://github.com/platformxlab/blockflex"><b> [Github]</b></a> 
+                                            <br><b>- Artifact Evaluated!</b>
+                                        <img src="images/usenixbadges-available.png" style="max-height: 40px;" alt="Badge Available">
+                                        <img src="images/usenixbadges-functional.png" style="max-height: 40px;" alt="Badge Functional">
+                                        <img src="images/usenixbadges-reproduced.png" style="max-height: 40px;" alt="Badge Reproduced">  
+                                        <br> - Travel supported by the <b>Usenix Student Grant Program</b>, Thanks Usenix!
+                                        </p>
+                                    <!--
+                                        <h5 class=""><a href="."
+                                        > <b>Understanding and Detecting Deep Memory Persistency Bugs in NVM Programs with
+                                        DeepMC</b></a>. <u><b>Benjamin Reidys*</b></u>, Jian Huang.
+                                            In <a class="w3-text-indigo"
+                                                href="https://ppopp22.sigplan.org/">Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP'22)</a>
+                                            <br> <b>Slides:</b><a class="w3-text-indigo" href="https://docs.google.com/presentation/d/1Td_p52K7StvrUlOh0CYPq9MVlpQch2WO/edit?usp=sharing&ouid=106903160865839504790&rtpof=true&sd=true"><b> Long talk</b></a>, <a class="w3-text-indigo" href="https://docs.google.com/presentation/d/1pVS46lmeLmlxpNoqEH3OQSv5CwnBw7jh/edit?usp=sharing&ouid=106903160865839504790&rtpof=true&sd=true"><b>Short talk</b></a>.
+                                            <b>Videos:</b><a class="w3-text-indigo" href="https://drive.google.com/file/d/156rkFNfKzh8wyYdNt1ZDLjpLEQjX-vuY/view?usp=sharing"><b> Long talk</b></a>, <a class="w3-text-indigo" href="https://drive.google.com/file/d/1rBpCPorNc4WSoo1d-9vBy3pjv3grDs5d/view?usp=sharing"><b>Short talk</b></a>.
+                                        </h5>
+                                    -->
+                                        <p class=""><b><a href="https://dl.acm.org/doi/10.1145/3503222.3507773"
+                                                        >RSSD: Defend against Ransomware with Hardware-Isolated
+                                                Network-Storage Codesign and Post-Attack Analysis</a></b>. <u><b>Benjamin Reidys</b></u>, Peng Liu, Jian Huang.
+                                            In <a 
+                                                        href=https://asplos-conference.org/2022/><i>Proceedings of the 27th ACM
+                                                            International Conference on Architectural Support for Programming
+                                                            Languages and Operating Systems (ASPLOS'22)</i></a>
+                                            <br> <b>Slides:</b><a class="w3-text-indigo"
+                                                href="https://drive.google.com/file/d/1ytWsaJSCPfRFnxqUuMcUmwIDwMGFhwz2/view?usp=sharing"><b>
+                                                    [PDF]</b></a>, 
+                                            <b>Videos:</b>
+                                            <a class="w3-text-indigo" href="https://drive.google.com/file/d/15PMOtggBIEb0dBcgaC8fsca9K8bWfHDj/view?usp=sharing"><b> Long talk</b></a>,
+                                            <a class="w3-text-indigo" href="https://docs.google.com/presentation/d/1AOJxCvBpDgocc1_O3l_vcbEnyj_fIRqe/edit?usp=sharing&ouid=106903160865839504790&rtpof=true&sd=true"><b>Short talk</b></a>,
+                                            <a class="w3-text-indigo" href="https://drive.google.com/file/d/1wkKNvMtYXKLzbHOtiQFDpEH6fEcDBC_0/view?usp=sharing"><b>Lightning talk</b></a>. 
+                                            <br> - Travel supported by the <b>ASPLOS Travel Grant</b>, Thanks ASPLOS!  <br> - Selected for presentation at <b><a class="w3-text-black" href="http://nvmw.ucsd.edu/program/"> NVMW'22!</a></b>
+                                        </p>
+                                        <p class=""><b><a href="https://dl.acm.org/doi/10.1145/3466752.3480060"
+                                                        >Distributed Data Persistency</a></b>. Apostolos Kokolis,
+                                            Antonis Psistakis, <u><b>Benjamin Reidys</b></u>, Jian Huang, Josep Torrellas. In <a
+                                                        href=https://www.microarch.org/micro54/><i>Proceedings of the 54th
+                                                            IEEE/ACM International Symposium on Microarchitecture (MICRO '21)</i></a>
+                                            <br> - Selected for <b><a class="w3-text-black"
+                                                    href="https://ieeexplore.ieee.org/document/9741337?source=authoralert"> IEEE Micro Top Picks '22!</a></b>
+                                        </p>
+                                        <p class=""><b><a href=https://dl.acm.org/doi/10.1145/3456727.3463775
+                                            >UniHeap: Managing Persistent Objects Across Managed Runtimes
+                                                for Non-Volatile Memory</b></a>. Daixuan Li, <u><b>Benjamin Reidys</b></u>, Jinghan Sun,
+                                        Thomas Shull, Josep Torrellas, Jian Huang. In <a href=https://www.systor.org/2021/><i>Proceedings of the 14th ACM International
+                                                System and Storage Conference (SYSTOR '21)</i></a>
+                                        <br> - Selected for presentation at <b><a class="w3-text-black" href="http://nvmw.ucsd.edu/program/"> NVMW'22!</a></b>
+                                        </p>
+								</div>
+							</section>
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Education</h3>
+                                    <p>
+                                      <b>University of Illinois at Urbana-Champaign, Urbana, IL, USA | August 2020 - Present</b>
+                                      <br>
+                                      Ph.D. in Computer Science | Advised by Prof. <a href=https://jianh.web.engr.illinois.edu>Jian Huang</a>
+                                      <hr>
+                                      <b>Virginia Tech, Blacksburg, VA, USA | August 2016 - May 2020</b>
+                                      <br>
+                                      B.Sc. in Computer Science and Math
+                                      </p>
+								</div>
+							</section>
+
+						<!-- Five -->
+							<section id="five">
+								<div class="container">
+									<h3>Service</h3>
+									<p>I have served in the artifact evaluation committee for the following conferences:
+                                    <ul>
+                                        <li>FAST (2024)</li>
+                                        <li>OSDI (2023)</li>
+                                        <li>ATC (2023)</li>
+                                        <li>ASPLOS (2023)</li>
+                                        <li>EuroSys (2023)</li>
+                                        <li>MICRO (2023)</li>
+                                    </ul></p>
+								</div>
+							</section>
+						<!-- Six -->
+							<section id="six">
+								<div class="container">
+									<h3>Miscellaneous</h3>
+                                    <p>In my spare time, I enjoy cycling! <br>
+                                    Below is a picture from one of my prouder cycling achievements: summiting 
+                                    the <a href="https://climbfinder.com/en/climbs/mortirolo">Mortirolo</a> in Italy.</p>
+                                    <a href="#" class="image"><img style="max-height:300px" src="images/mortirolo.JPG" alt="" /></a>
+                                    <p> I am also an avid reader! Feel free to reach out with great book recommendations or connect with me on 
+                                    <a href="https://www.goodreads.com/user/show/150851791-benjamin-reidys">Goodreads</a>.
+								</div>
+							</section>
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
